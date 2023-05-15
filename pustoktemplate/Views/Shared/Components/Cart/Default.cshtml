@@ -1,0 +1,22 @@
+﻿@using pustoktemplate.ViewModels;
+@model List<BasketItemVm>
+@foreach(var item in Model){
+<tr>
+												<td class="pro-remove"><a href="#"><i class="far fa-trash-alt"></i></a>
+												</td>
+												<td class="pro-thumbnail"><a href="#"><img
+															src="image/products/@item.Image" alt="Product"></a></td>
+												<td class="pro-title"><a href="#">@item.Name</a></td>
+												<td class="pro-price"><span>$@item.Price</span></td>
+												<td class="pro-quantity">
+													<div class="pro-qty w-25">
+														<div class="count-input-block">
+															<a asp-controller="Product" asp-action="Increement"asp-route-id="@item.BookId" class="form-control text-center" >+</a>
+															<input type="number" class="form-control text-center"value="@item.Count">
+					                                        <a asp-controller="Product" asp-action="Decreement" asp-route-id="@item.BookId" class="form-control text-center">-</a>
+														</div>
+													</div>
+												</td>
+												<td class="pro-subtotal"><span>$@(item.Count*item.Price)</span></td>
+											</tr>
+}

@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\PustokAdmin\Models\**" />
+    <Content Remove="Areas\PustokAdmin\Models\**" />
+    <EmbeddedResource Remove="Areas\PustokAdmin\Models\**" />
+    <None Remove="Areas\PustokAdmin\Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\admin\js\.DS_Store" />
+    <None Include="wwwroot\admin\js\chart.js" />
+    <None Include="wwwroot\admin\js\Chart.min.js" />
+    <None Include="wwwroot\admin\js\dashboard.js" />
+    <None Include="wwwroot\admin\js\data-table.js" />
+    <None Include="wwwroot\admin\js\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\admin\js\documentation.js" />
+    <None Include="wwwroot\admin\js\file-upload.js" />
+    <None Include="wwwroot\admin\js\hoverable-collapse.js" />
+    <None Include="wwwroot\admin\js\jquery.dataTables.js" />
+    <None Include="wwwroot\admin\js\off-canvas.js" />
+    <None Include="wwwroot\admin\js\tabs.js" />
+    <None Include="wwwroot\admin\js\template.js" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\CODEOWNERS" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\dependabot.yml" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\ISSUE_TEMPLATE\bug_report.md" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\ISSUE_TEMPLATE\config.yml" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\ISSUE_TEMPLATE\feature_request.md" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\release-drafter.yml" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\SUPPORT.md" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\workflows\browserstack.yml" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\workflows\bundlewatch.yml" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\workflows\codeql.yml" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\workflows\css.yml" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\workflows\docs.yml" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\workflows\js.yml" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\workflows\lint.yml" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\workflows\node-sass.yml" />
+    <None Include="wwwroot\bootstrap-5.0.2\bootstrap-5.0.2\.github\workflows\release-notes.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+  </ItemGroup>
+
+</Project>

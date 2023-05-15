@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Book>
+@foreach(var item in Model){
+<div class="single-slide">
+    <div class="product-card">
+        <div class="product-header">
+            <a href="#" class="author">
+                @item.Author.Name
+            </a>
+            <h3>
+                <a href="product-details.html">
+                    @item.Name
+                </a>
+            </h3>
+        </div>
+        <div class="product-card--body">
+            <div class="card-image">
+                <img src="~/image/bg-images/@item.BookImages.FirstOrDefault(x=>x.Ismain==true)?.Image" alt="">
+                <div class="hover-contents">
+                    <a href="product-details.html" class="hover-image">
+                            <img src="~/image/products/@(item.BookImages.FirstOrDefault(x=>x.Ismain==false)?.Image)" alt="">
+                    </a>
+                    <div class="hover-btns">
+                            <a asp-controller="home" asp-action="AddBasket" asp-route-id="@item.Id" class="single-btn">
+                            <i class="fas fa-shopping-basket"></i>
+                        </a>
+                        <a href="wishlist.html" class="single-btn">
+                            <i class="fas fa-heart"></i>
+                        </a>
+                        <a href="compare.html" class="single-btn">
+                            <i class="fas fa-random"></i>
+                        </a>
+                        <a href="#" data-toggle="modal" data-target="#quickModal"
+                           class="single-btn">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="price-block">
+                <span class="price">@(item.Price-item.DisCountPrice)</span>
+                <del class="price-old">£@item.Price</del>
+                <span class="price-discount">@item.DisCountPrice</span>
+            </div>
+        </div>
+    </div>
+</div>
+}
