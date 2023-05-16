@@ -20,14 +20,15 @@ namespace pustoktemplate.Areas.PustokAdmin.Controllers
 
 		public async Task<IActionResult> Index()
 		{
-			//AppUser admin = new AppUser() { 
-			//	UserName="admin",
-			//	FullName="admin",
-			//};
-			//var result= await _usermanager.CreateAsync(admin,"Admin123");
-			//if(!result.Succeeded)
+			//AppUser admin = new AppUser()
 			//{
-			//	foreach(var item in result.Errors)
+			//	UserName = "admin",
+			//	FullName = "admin",
+			//};
+			//var result = await _usermanager.CreateAsync(admin, "Admin123");
+			//if (!result.Succeeded)
+			//{
+			//	foreach (var item in result.Errors)
 			//	{
 			//		ModelState.AddModelError("", item.Description);
 			//	}
@@ -42,7 +43,7 @@ namespace pustoktemplate.Areas.PustokAdmin.Controllers
 			//var user = await _usermanager.FindByNameAsync("admin");
 			//await _usermanager.AddToRoleAsync(user, "admin");
 			//await _signinmanager.SignInAsync(user, false);
-			return Json("Hazirdi");
+			return Json(":)");
 		}
 	}
 }

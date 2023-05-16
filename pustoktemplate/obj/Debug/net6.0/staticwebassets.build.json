@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Wkmzl2JNI9FzJnlppQP6bx8Qrt1coinhn1AM2w6uBV8=",
+  "Hash": "e2dqy8XrsC05jRP9FTo+zJBE/wuAcAc7iyW+uptTujw=",
   "Source": "pustoktemplate",
   "BasePath": "_content/pustoktemplate",
   "Mode": "Default",
@@ -13056,6 +13056,23 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\6e173be1-42b3-463e-8a2e-fb2cfa6f9008_product-12.jpg"
     },
     {
+      "Identity": "C:\\Users\\Ilaha\\Desktop\\Pustokt\\pustoktemplate\\wwwroot\\image\\bg-images\\82d80b4a-0fe7-4dfe-9af1-27320e21ebc5_product-1.jpg",
+      "SourceId": "pustoktemplate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ilaha\\Desktop\\Pustokt\\pustoktemplate\\wwwroot\\",
+      "BasePath": "_content/pustoktemplate",
+      "RelativePath": "image/bg-images/82d80b4a-0fe7-4dfe-9af1-27320e21ebc5_product-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\bg-images\\82d80b4a-0fe7-4dfe-9af1-27320e21ebc5_product-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Ilaha\\Desktop\\Pustokt\\pustoktemplate\\wwwroot\\image\\bg-images\\8542bae5-437f-46a1-8857-9e47fcfac813_face11.jpg",
       "SourceId": "pustoktemplate",
       "SourceType": "Discovered",
@@ -13226,6 +13243,23 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\e8637abb-a0e3-4169-a937-c36baa51b583_product-11.jpg"
     },
     {
+      "Identity": "C:\\Users\\Ilaha\\Desktop\\Pustokt\\pustoktemplate\\wwwroot\\image\\bg-images\\f7550e58-52b2-40e8-9e75-905c2debe517_product-details-3.jpg",
+      "SourceId": "pustoktemplate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ilaha\\Desktop\\Pustokt\\pustoktemplate\\wwwroot\\",
+      "BasePath": "_content/pustoktemplate",
+      "RelativePath": "image/bg-images/f7550e58-52b2-40e8-9e75-905c2debe517_product-details-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\bg-images\\f7550e58-52b2-40e8-9e75-905c2debe517_product-details-3.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Ilaha\\Desktop\\Pustokt\\pustoktemplate\\wwwroot\\image\\bg-images\\f998d27d-2e5e-49a1-a2e9-e1ef870d7efd_product-details-3.jpg",
       "SourceId": "pustoktemplate",
       "SourceType": "Discovered",
@@ -13258,6 +13292,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\fa39be85-ff5d-4f43-9eeb-5500215a3722_face17.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ilaha\\Desktop\\Pustokt\\pustoktemplate\\wwwroot\\image\\bg-images\\fd745b23-46fe-4289-b931-db85804aa43d_product-8.jpg",
+      "SourceId": "pustoktemplate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ilaha\\Desktop\\Pustokt\\pustoktemplate\\wwwroot\\",
+      "BasePath": "_content/pustoktemplate",
+      "RelativePath": "image/bg-images/fd745b23-46fe-4289-b931-db85804aa43d_product-8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\bg-images\\fd745b23-46fe-4289-b931-db85804aa43d_product-8.jpg"
     },
     {
       "Identity": "C:\\Users\\Ilaha\\Desktop\\Pustokt\\pustoktemplate\\wwwroot\\image\\bg-images\\home-2-slider-1.jpg",

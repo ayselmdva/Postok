@@ -21,6 +21,10 @@ namespace pustoktemplate.Areas.PustokAdmin.Controllers
         {
             return View( await _context.Books.Include(x=>x.Author).Include(x=>x.Genre).ToListAsync());
         }
+        public async Task<IActionResult> Detail(int id)
+        {
+            return View(await _context.Sliders.FirstOrDefaultAsync(x => x.Id == id));
+        }
         [HttpGet]
         public IActionResult Create()
         {
@@ -84,5 +88,23 @@ namespace pustoktemplate.Areas.PustokAdmin.Controllers
 
 
         }
+        public async Task<IActionResult> Edit(int id)
+        {
+            return View(await _context.Books.FirstOrDefaultAsync(x => x.Id == id));
+        }
+       
+        public async Task<IActionResult> Delete(int id)
+        {
+            Book? exist = await _context.Books.FirstOrDefaultAsync(x => x.Id == id);
+            if (exist == null)
+            {
+                ModelState.AddModelError("", "Invalid Input");
+                return Json(new { status = 404 });
+            }
+            _context.Books.Remove(exist);
+            await _context.SaveChangesAsync();
+            return Json(new { status = 200 });
+        }
     }
+
 }

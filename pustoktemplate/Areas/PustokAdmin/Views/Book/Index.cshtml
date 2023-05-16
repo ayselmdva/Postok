@@ -29,7 +29,7 @@
                             <th>
                                 Genre Name
                             </th>
-                          
+
                             <th>
                                 Available
                             </th>
@@ -37,9 +37,12 @@
                                 DisCountPrice
                             </th>
                             <th>
-                               Price
+                                Price
                             </th>
-  
+                            <th>
+                                Book Image
+                            </th>
+
 
                         </tr>
                     </thead>
@@ -67,6 +70,9 @@
                                 </td>
                                 <td>
                                     @item.Price
+                                </td>
+                                <td>
+                                    @item.
                                 </td>
                                 <td>
                                     <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">

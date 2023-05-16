@@ -19,5 +19,15 @@
             return uniqueFileName;
 
         }
+        public static void DeleteFile(this IFormFile file, string root, string mainPath, string fileName)
+        {
+            string path = Path.Combine(root, "assets", "imgs", mainPath, fileName);
+            using FileStream stream = new FileStream(path, FileMode.Open);
+            if (File.Exists(path))
+            {
+                stream.Close();
+                File.Delete(path);
+            }
+        }
     }
 }
